@@ -8,8 +8,8 @@
     <arg name="with_no_go_map" default="false"/>
 	<arg name="with_mux" default="false" />
     <arg name="no_go_map"/>
-    <arg name="z_stair_threshold" default="0.05"/>
-    <arg name="z_obstacle_threshold" default="0.1"/>
+    <arg name="z_stair_threshold" default="0.1"/>
+    <arg name="z_obstacle_threshold" default="0.15"/>
     <arg name="with_head_camera" default="false"/>
 
     <machine name="$(arg machine)" address="$(arg machine)" env-loader="/opt/strands/strands_catkin_ws/devel/env.sh" user="$(arg user)" default="true"/>
